@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-05T22:04:35 EDT" name="InterviewTask" finished-at="2022-04-05T22:07:18 EDT" duration-ms="162451">
+    <groups>
+    </groups>
+    <test started-at="2022-04-05T22:04:35 EDT" name="Test" finished-at="2022-04-05T22:07:18 EDT" duration-ms="162451">
+      <class name="Tests.InterviewTask">
+        <test-method is-config="true" signature="beforeAll()[pri:0, instance:Tests.InterviewTask@16a0ee18]" started-at="2022-04-05T22:04:35 EDT" name="beforeAll" finished-at="2022-04-05T22:04:35 EDT" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeAll -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:Tests.InterviewTask@16a0ee18]" started-at="2022-04-05T22:04:35 EDT" name="startTest" finished-at="2022-04-05T22:04:39 EDT" duration-ms="3467" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.InterviewTask.verifySearchResultsContainCertainWord()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="verifySearchResultsContainCertainWord()[pri:0, instance:Tests.InterviewTask@16a0ee18]" started-at="2022-04-05T22:04:39 EDT" name="verifySearchResultsContainCertainWord" finished-at="2022-04-05T22:07:13 EDT" duration-ms="154814" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchResultsContainCertainWord -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Tests.InterviewTask@16a0ee18]" started-at="2022-04-05T22:07:13 EDT" name="afterMethod" finished-at="2022-04-05T22:07:18 EDT" duration-ms="4132" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySearchResultsContainCertainWord status=SUCCESS method=InterviewTask.verifySearchResultsContainCertainWord()[pri:0, instance:Tests.InterviewTask@16a0ee18] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.InterviewTask@16a0ee18]" started-at="2022-04-05T22:07:18 EDT" name="tearDown" finished-at="2022-04-05T22:07:18 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.InterviewTask -->
+    </test> <!-- Test -->
+  </suite> <!-- InterviewTask -->
+</testng-results>
